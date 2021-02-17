@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 17, 2021, 12:00:08 PM
+    Author     : alice
+*/
+body{
+   display:flex;
+   width: 100%; 
+   height:100%
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-color: black;
+    width: 100%
+}
+.wrapper .division1{
+    margin-left: 50px;
+}
+.wrapper .division1 .blue{
+      border-collapse:collapse;
+      width:100%;
+}
+.wrapper .division2{
+    padding-top: 100px;
+    height: 100px;
+    margin-left: 300px;
+
+}
+.wrapper .division1  .blue{
+    border:2px solid #1ABC9C;
+    
+}
+.wrapper .division1 .blue thead{
+    background:#1ABC9C;
+    
+}
+.blue{
+  border:2px solid #1ABC9C;
+}
+
+.blue thead{
+  background:#1ABC9C;
+}
+
+
+.blue thead{
+  color:white;
+}
+
+.blue thead tr td{
+  text-align:center;
+  padding:20px 20px 20px  20px;
+}
+.blue tbody tr td{
+  text-align:center;
+  padding:20px 20px 20px 20px;
+}
+.blue tbody tr td:hover{
+    background:#BDC3C7;
+  color:#FFFFFF; 
+}
+.blue thead tr td:hover{
+   background:#BDC3C7;
+  color:#FFFFFF; 
+}
+.blue tbody tr:nth-child(even){
+  background:#ECF0F1;
+}
+
+
+.blue tbody td:hover{
+background:#BDC3C7;
+  color:#FFFFFF;
+}
